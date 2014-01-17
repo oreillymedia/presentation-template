@@ -39,7 +39,7 @@ The "sample.html" file provides some ideas to try.
 
 ## Create a title page
 
-To create a title page, just edit the "titlepage.html" file.  This file will automatically be placed at the start of your presentation.
+To create a title page, edit the "titlepage.html" file.  This file will automatically be placed at the start of your presentation.
 
 ## Creating an index page
 
