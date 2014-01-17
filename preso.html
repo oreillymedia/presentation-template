@@ -1,0 +1,428 @@
+<section data-type="chapter">
+<h1>Before we begin</h1>
+
+<p>Two ways to follow along!</p>
+
+<ol>
+	<li>View the presentation and tryout the examples online: <a href="http://bit.ly/1hiMI9J">bit.ly/1hiMI9J</a></li>
+	<li>Download the examples to your machine from GitHub, and view them locally in a browser: <a data-original-title="" href="http://bit.ly/KxyruM" title="">bit.ly/KxyruM</a></li>
+</ol>
+</section>
+
+<section data-type="chapter">
+<h1>From Scattered to Scatterplot in 2 Hours</h1>
+
+<p>An Introduction to d3.js</p>
+
+<figure><img alt="Alt Text" class="iimagesslide02png" src="images/slide02.png" /></figure>
+</section>
+
+<section class="hcenter vcenter" data-type="chapter">
+<figure><img alt="Alt Text" class="iimagesslide03png" src="images/slide03.png" /></figure>
+</section>
+
+<section class="hcenter vcenter" data-type="chapter">
+<figure><img id="c112" src="images/slide04.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Curriculum</h1>
+
+<ul>
+	<li>Intro to D3 as a tool</li>
+	<li>Set up with empty page template</li>
+	<li>Selecting elements</li>
+	<li>Creating elements</li>
+	<li>SVG images and elements</li>
+	<li>Data in JavaScript (arrays)</li>
+	<li>Binding data to create elements</li>
+	<li>Using transitions between states</li>
+	<li>Using scales to position elements</li>
+	<li>Adding axes</li>
+</ul>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Let's go!</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Assumptions</h1>
+
+<ul>
+	<li>You are somewhat familiar with HTML &amp; CSS</li>
+	<li>You have a little programming experience</li>
+	<li>You can view the code examples, either:
+	<ul>
+		<li>on Atlas: <a data-original-title="" href="http://bit.ly/1hiMI9J" title="">bit.ly/1hiMI9J</a></li>
+		<li>downloaded from GitHub: <a href="http://bit.ly/KxyruM">bit.ly/KxyruM</a></li>
+	</ul>
+	</li>
+</ul>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>What is d3.js?</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>d3js.org</h1>
+
+<figure><img alt="Alt Text" class="iimagesslide05png" src="images/slide05.png" /></figure>
+</section>
+
+<section class="black" data-type="chapter">
+<h1>Example</h1>
+
+<pre data-code-language="html" data-original-title="" data-type="programlisting" title="">
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt; 
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;D3: Empty page template&lt;/title&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;d3.v3.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt; 
+&lt;script type=&quot;text/javascript&quot;&gt;
+// Your beautiful D3 code // can go here
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</section>
+
+<section data-type="chapter">
+<h1 class="highlight">These Are Web Standards</h1>
+
+<table>
+	<tbody>
+		<tr>
+			<td>HTML:</td>
+			<td>
+			<p>Hypertext Markup Language</p>
+			</td>
+		</tr>
+		<tr>
+			<td>CSS:</td>
+			<td>
+			<p>Cascading Style Sheets</p>
+			</td>
+		</tr>
+		<tr>
+			<td>JS:</td>
+			<td>
+			<p>JavaScript</p>
+			</td>
+		</tr>
+		<tr>
+			<td>SVG:</td>
+			<td>
+			<p>Scalable Vector Graphics</p>
+			</td>
+		</tr>
+		<tr>
+			<td>DOM:</td>
+			<td>
+			<p>The Document Object Model</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section data-type="chapter">
+<h1 class="highlight">Learning D3 is a process of &ldquo;learning the web&rdquo;</h1>
+
+<table>
+	<tbody>
+		<tr>
+			<td>HTML:</td>
+			<td>
+			<p>Hypertext Markup Language</p>
+			</td>
+		</tr>
+		<tr>
+			<td>CSS:</td>
+			<td>
+			<p>Cascading Style Sheets</p>
+			</td>
+		</tr>
+		<tr>
+			<td>JS:</td>
+			<td>
+			<p>JavaScript</p>
+			</td>
+		</tr>
+		<tr>
+			<td>SVG:</td>
+			<td>
+			<p>Scalable Vector Graphics</p>
+			</td>
+		</tr>
+		<tr>
+			<td>DOM:</td>
+			<td>
+			<p>The Document Object Model</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Setting Up</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Exercise</h1>
+
+<p><img alt="Alt Text" class="iimagessitepng floatright" src="images/site.png" /> Create the website on the right by typing D3 code into the console below.</p>
+<a class="jsbin-embed" data-original-title="" href="http://jsbin.com/iZASIxUF/2/embed?console,output" title="">D3: Empty page template</a><script src="http://static.jsbin.com/js/embed.js"></script></section>
+
+<section class="vcenter" data-type="chapter">
+<h1>SVG</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Exercise</h1>
+
+<p><img alt="Alt Text" class="iimagessitepng floatright" src="images/slide06.png" /> Recreate the image on the right by typing D3 code into the console below.</p>
+<a class="jsbin-embed" data-original-title="" href="http://jsbin.com/iZASIxUF/2/embed?console,output" title="">D3: Empty page template</a><script src="http://static.jsbin.com/js/embed.js"></script></section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Binding data / data joins</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ 5, 10, 20, 15, 18 ];
+</pre>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ 5, 10, 20, 15, 18 ];
+
+d3.select(&quot;svg&quot;).selectAll(&quot;circle&quot;)
+  .data(dataset)
+  .enter()
+  .append(&quot;circle&quot;);
+</pre>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ 5, 10, 20, 15, 18 ];
+
+d3.<span class="highlight">select(&quot;svg&quot;)</span>.selectAll(&quot;circle&quot;)
+  .data(dataset)
+  .enter()
+  .append(&quot;circle&quot;);
+</pre>
+
+<figure><img id="c166" src="images/slide07.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ 5, 10, 20, 15, 18 ];
+
+d3.select(&quot;svg&quot;).<span class="highlight">selectAll(&quot;circle&quot;)</span>
+  .data(dataset)
+  .enter()
+  .append(&quot;circle&quot;);
+</pre>
+
+<figure><img id="c140" src="images/slide08.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ <span class="highlight2">5, 10, 20, 15, 18</span> ];
+
+d3.select(&quot;svg&quot;).selectAll(&quot;<span class="highlight2">circle</span>&quot;)
+  <span class="highlight">.data(dataset)</span>
+  .enter()
+  .append(&quot;circle&quot;);
+</pre>
+
+<figure><img id="c144" src="images/slide09.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ <span class="highlight2">5, 10, 20, 15, 18</span> ];
+
+d3.select(&quot;svg&quot;).selectAll(&quot;circle&quot;)
+  .data(dataset)
+  <span class="highlight">.enter()</span>
+  .append(&quot;circle&quot;);
+</pre>
+
+<figure><img id="c148" src="images/slide10.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ 5, 10, 20, 15, 18 ];
+
+d3.select(&quot;svg&quot;).selectAll(&quot;circle&quot;)
+  .data(dataset)
+  .enter()
+  <span class="highlight">.append(&quot;circle&quot;);</span>
+</pre>
+
+<figure><img id="c152" src="images/slide11.png" /></figure>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<figure><img id="c156" src="images/slide12.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Setting attributes from data!</h1>
+
+<figure><img id="c163" src="images/slide13.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+d3.selectAll(&ldquo;circle&rdquo;)
+&nbsp; .attr(&ldquo;r&rdquo;, function(d) {
+&nbsp;&nbsp;&nbsp;&nbsp; return d;
+&nbsp; });
+</pre>
+
+<figure><img id="c195" src="images/slide14.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Binding data to elements</h1>
+
+<ol>
+	<li>Lets you reference values later</li>
+	<li>Prevents need to &quot;redraw&quot; elements</li>
+</ol>
+
+<figure><img id="c168" src="images/slide15.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Exercise</h1>
+
+<p>Starting with the next slide (06_circles.html), add a color value to each object in the data set.</p>
+
+<p>Then use that value to set the fill of each circle.</p>
+
+<figure><img id="c152" src="images/circles.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Exercise: 06_circles.html</h1>
+
+<p>In the code editor below, add a color value to each object in the data set.</p>
+<a class="jsbin-embed" href="http://jsbin.com/AHozEVoz/2/embed?html,output">D3: Data-driven circles</a><script src="http://static.jsbin.com/js/embed.js"></script></section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Transitions</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Transitions and Motion</h1>
+
+<figure><img id="c172" src="images/slide16.png" /></figure>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Scales</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Scale values</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var scale = d3.scale.linear()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .domain([200, 1000])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .range([0, 500]);
+
+scale(600);&nbsp; // Returns 250
+</pre>
+
+<figure><img id="c215" src="images/slide17.png" /></figure>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>Axes</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Generate Axes</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var axis = d3.svg.axis()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .scale(scale);
+svg.append(&quot;g&quot;)&nbsp;&nbsp; .call(axis);
+</pre>
+
+<figure><img id="c216" src="images/slide18.png" /></figure>
+</section>
+
+<section class="vcenter" data-type="chapter">
+<h1>What else can D3 do for me?</h1>
+
+<p>&nbsp;</p>
+</section>
+
+<section data-type="chapter">
+<h1>Layouts</h1>
+
+<figure><img id="c193" src="images/slide19.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>Mapping and projections</h1>
+
+<figure><img id="c200" src="images/slide20.png" /></figure>
+</section>
+
+<section data-type="chapter">
+<h1>d3js.org</h1>
+
+<figure><img id="c185" src="images/slide05.png" /></figure>
+</section>
+
+<section data-type="chapter"><img class="floatleft" id="c207" src="images/slide21.png" style="margin-right:30px;" />
+<h1>Scott Murray</h1>
+
+<p>@alignedleft</p>
+
+<p>alignedleft.com</p>
+</section>
