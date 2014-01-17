@@ -21,7 +21,23 @@ Once you've pushed the new repo up, you can open it in Atlas.
 
 ## Working in Atlas
 
-Once 
+Once in Atlas, you have a number of options for how you arrange your content.  For example, you can put all your slides in their individual files, or you can put them all together in a single file.  Regardless of your approach, the content of each slide must be wrapped in a "chapter" section.  The "sample.html" file in this repo will show you an example.
+
+You can put any kind of content on a slide:
+
+* plain text
+* lists
+* tables
+* hyperlinks
+* images
+ 
+You can also use the "Insert Media" button to insert the HTML markup for:
+* YouTube or Vimeo videos
+* JSBins
+* Google form widgets
+* Arbitratray iframes
+
+The "sample.html" file will give you some ideas to try.
 
 ## Creating an index page
 
