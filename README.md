@@ -39,6 +39,10 @@ You can also use the "Insert Media" button to insert the HTML markup for:
 
 The "sample.html" file will give you some ideas to try.
 
+## Create a title page
+
+To create a title page, just edit the "titlepage.html" file.  This file will automatically be placed at the start of your presentation.
+
 ## Creating an index page
 
 ## Viewing the site on your local machine
