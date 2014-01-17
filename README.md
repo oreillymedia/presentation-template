@@ -34,7 +34,7 @@ You can put any kind of content on a slide:
 You can also use the "Insert Media" button to insert the HTML markup for:
 * YouTube or Vimeo videos
 * JSBins
-* Google form widgets
+* Google form widgets (these are a simple way to have an interactive poll or form for your viewers)
 * Arbitratray iframes
 
 The "sample.html" file will give you some ideas to try.
