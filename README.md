@@ -23,6 +23,7 @@ Once you've pushed the new repo up, you can open it in Atlas.
 
 Once 
 
+## Creating an index page
+
 ## Viewing the site on your local machine
 
-## Creating an index page
