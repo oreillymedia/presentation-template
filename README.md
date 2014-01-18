@@ -65,7 +65,7 @@ You build an Atlas presentation just like you build a book:
 * You can also build a pretty passable PDF to hand out after the fact.  
  
 
-## Viewing the site on your local machine
+## Test the site on your local machine
 
 Once you build the file, download and unzip it.  If you're on a Mac, you can drop into a terminal and go to the directory where you unzipped it and run this:
 
