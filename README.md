@@ -75,7 +75,7 @@ python -m SimpleHTTPServer
 
 If you're on a Windows machine, perhaps you'll be kind enough to submit a pull request that explains the best way to do this on Windows.
 
-## Publishing the site
+## Publishing the presentation
 
 You can pubslih the HTML anywhere where you can host a static site.  O'Reilly will work with you if you want to piublish it on an ORM domain.
 
