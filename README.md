@@ -2,7 +2,7 @@
 
 This is a template for a presentation in Atlas. (Or, what we're calling an "Atlascast".)  It provides the basic instructions you need to follow to make a new presentation in Atlas.
 
-## Installing the template into Atlas
+## Install the template into Atlas
 
 In this pre-release version of Atlas, the first step in using the template is to get a fresh copy of it into your GitHub account.  To do this, you'll need to clone the repository to your local machine, like this:
 
@@ -20,7 +20,7 @@ $ git push gihub master
 
 Once you've pushed the new repo up, you can open it in Atlas.
 
-## Working in Atlas
+## Build the presentation in Atlas
 
 Every "slide" in Atlas must be wrapped in a "chapter" section.  You can organize your slides by putting each one in its own file, or putting multipl "chapter" sections together in a single file.  
 
