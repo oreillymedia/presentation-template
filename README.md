@@ -38,7 +38,7 @@ You can also use the "Insert Media" button to insert the HTML markup for:
 * Google form widgets (these are a simple way to have an interactive poll or form for your viewers)
 * Arbitratray iframes
 
-The "sample.html" file provides some ideas to try.
+The "sample.html" file in this template provides some ideas to try.
 
 ## Create a title page
 
