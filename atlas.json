@@ -23,6 +23,6 @@
       "consolidated": true
     }
   },
-  "theme": "odewahn/oreilly_presentation_theme",
+  "theme": "oreillymedia/oreilly_presentation_theme",
   "title": "My Awesome Presentation"
 }
