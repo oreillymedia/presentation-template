@@ -22,7 +22,9 @@ Once you've pushed the new repo up, you can open it in Atlas.
 
 ## Working in Atlas
 
-Every "slide" in Atlas must be wrapped in a "chapter" section.  You can organize your slides by putting each one in it's own file, or putting multipl "chapter" sections together in a single file.  Each slide can can contain any kind of content, such as:
+Every "slide" in Atlas must be wrapped in a "chapter" section.  You can organize your slides by putting each one in its own file, or putting multipl "chapter" sections together in a single file.  
+
+Each slide can can contain any kind of content, such as:
 
 * plain text
 * lists
