@@ -1,6 +1,6 @@
 # Atlas presentation template
 
-This is a template for a presentation in Atlas.  
+This is a template for a presentation in Atlas. (Or, what we're calling an "Atlascast".)
 
 ## Getting the template into Atlas
 
