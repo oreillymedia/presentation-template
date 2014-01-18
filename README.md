@@ -1,8 +1,8 @@
 # Atlas presentation template
 
-This is a template for a presentation in Atlas. (Or, what we're calling an "Atlascast".)
+This is a template for a presentation in Atlas. (Or, what we're calling an "Atlascast".)  It provides the basic instructions you need to follow to make a new presentation in Atlas.
 
-## Getting the template into Atlas
+## Installing the template into Atlas
 
 In this pre-release version of Atlas, the first step in using the template is to get a fresh copy of it into your GitHub account.  To do this, you'll need to clone the repository to your local machine, like this:
 
