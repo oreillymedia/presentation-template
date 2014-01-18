@@ -49,15 +49,18 @@ Edit the file "index.html" to create a landing page that describes the presentat
 * A brief bio and photograph
 * A brief list of topics covered in the talk
 
-## Build the book
+## Build the presentation
 
 You build an Atlas presentation just like you build a book:
 
 * Use the theme named "oreillymedia/oreilly\_presentation\_theme"
-<image src="images/build_atlas_presentation.png"/>
-* Select In the HTML Build options
-* 
+* Select In the HTML Build options, select the "Consolidate HTML in one File" option, like this:
+
 ![images/build_atlas_presentation.png](images/build_atlas_presentation.png)
+
+* Drag the files that contain your slides into the build
+* You can also build a pretty passable PDF to hand out after the fact.  
+ 
 
 ## Viewing the site on your local machine
 
