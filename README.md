@@ -13,6 +13,7 @@ $ git clone --shallow https://github.com/oreillymedia/presentation-template.git
 (Be sure to use the "--shallow" option so that you don't get the version history.)  Once you download the template, you should create a new project on GitHub, and then add a remote on your local machine to your new presentation.  For example:
 
 ```
+$ cd presentation-template
 $ git remote add github git@github.com:aliginedleft/scatteredtoscatterplot.git
 $ git push gihub master
 ```
