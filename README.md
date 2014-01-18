@@ -52,7 +52,8 @@ Edit the file "index.html" to create a landing page that describes the presentat
 ## Build the book
 
 You build an Atlas presentation just like you build a book:
-* select a theme.  The name is "oreillymedia/oreilly\_presentation\_theme"
+
+* Use the theme named "oreillymedia/oreilly\_presentation\_theme"
 <image src="images/build_atlas_presentation.png"/>
 
 ## Viewing the site on your local machine
