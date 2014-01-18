@@ -46,7 +46,7 @@ To create a title page, edit the "titlepage.html" file.  This file will automati
 
 ## Creating an index page
 
-Edit the file "index.html" to create a landing page that describes the presentation.  Unlike the other slides in this file, there are no default styles or layont applied to this file, so you can pretty much design it how you like.  We recommend you include:
+Edit the file "index.html" to create a landing page that describes the presentation.  Unlike the other slides in this file, no default styles or layout are applied to this file, so you can pretty much design it how you like.  We recommend that you include:
 
 * A description of the presentation
 * A brief bio and photograph
