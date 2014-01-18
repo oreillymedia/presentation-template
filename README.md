@@ -64,5 +64,11 @@ You build an Atlas presentation just like you build a book:
 
 ## Viewing the site on your local machine
 
-Atlas 
+Once you build the file, download and unzip it.  If you're on a Mac, you can drop into a terminal and go to the directory where you unzipped it and run this:
+
+```
+python -m SimpleHTTPServer
+```
+
+If you're on a Windows machine, perhaps you'll be kind enough to submit a pull request that explains the best way to do this on Windows.
 
