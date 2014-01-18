@@ -55,6 +55,9 @@ You build an Atlas presentation just like you build a book:
 
 * Use the theme named "oreillymedia/oreilly\_presentation\_theme"
 <image src="images/build_atlas_presentation.png"/>
+* Select In the HTML Build options
+* 
+![images/build_atlas_presentation.png](images/build_atlas_presentation.png)
 
 ## Viewing the site on your local machine
 
