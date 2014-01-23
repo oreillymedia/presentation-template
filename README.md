@@ -52,6 +52,8 @@ Edit the file "index.html" to create a landing page that describes the presentat
 * A brief bio and photograph
 * A brief list of topics covered in the talk
 
+You can also create supplementary CSS files and apply them just to this index file, so that they don't affect your presentation. Just add links to these CSS files in the head of the index.html file. 
+
 ## Build the presentation
 
 You build an Atlas presentation just like you build a book:
