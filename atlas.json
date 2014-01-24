@@ -22,20 +22,8 @@
       "toc": false,
       "consolidated": true,
       "javascripts" : [
-        "theme/html/deck/jquery.min.js",
-        "theme/html/deck/modernizr.custom.js",
-        "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
       ],
       "stylesheets" : [
-        "theme/html/deck/core/deck.core.css",
-        "theme/html/deck/extensions/goto/deck.goto.css",
-        "theme/html/deck/extensions/menu/deck.menu.css",
-        "theme/html/deck/extensions/navigation/deck.navigation.css",
-        "theme/html/deck/extensions/status/deck.status.css",
-        "theme/html/deck/extensions/hash/deck.hash.css",
-        "theme/html/deck/extensions/scale/deck.scale.css",
-        "theme/html/deck/themes/transition/horizontal-slide.css",
-        "theme/html/deck/themes/multicolumn/grid.css"
       ]
     }
   },
