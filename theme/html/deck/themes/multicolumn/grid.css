@@ -1,25 +1,21 @@
-section.slide {
-  
-}
-
-[class*="span"] {
+.column {
   float: left;
   min-height: 1px;
   margin-left: 1%; 
 }
 
-[class*="span"] img {
+.column img {
   max-width: 100%;
 }
 
-.span6 {
+.twocolumn .column {
   width: 49%;
 }
 
-.span4 {
+.threecolumn .column {
   width: 32%;
 }
 
-.span3 {
+.fourcolumn .column {
   width: 24%;
 }
