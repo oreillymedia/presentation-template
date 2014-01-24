@@ -1,0 +1,25 @@
+section.slide {
+  
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 1%; 
+}
+
+[class*="span"] img {
+  max-width: 100%;
+}
+
+.span6 {
+  width: 49%;
+}
+
+.span4 {
+  width: 32%;
+}
+
+.span3 {
+  width: 24%;
+}
