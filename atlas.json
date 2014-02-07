@@ -27,6 +27,6 @@
       ]
     }
   },
-  "theme": "git@github.com:oreillymedia/oreilly_presentation_theme.git",
+  "theme": "oreillymedia/oreilly_presentation_theme",
   "title": "My Awesome Presentation"
 }
